@@ -30,6 +30,7 @@ experience while ensuring ease of navigation and accessibility.
   
 **3. Technology Used**
 HTML: Used for structuring the content and layout of the website.
+
 CSS: Utilized for styling the website, including layout design, color schemes, typography, and responsive features.
 
 
