@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Projects</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #666;
+        }
+
+        section#projects {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+
+        .project {
+            margin-bottom: 30px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: box-shadow 0.3s ease;
+        }
+
+        .project:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .project img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .project .content {
+            padding: 20px;
+        }
+
+        .project h3 {
+            font-size: 24px;
+            margin: 0 0 10px;
+            color: #333;
+        }
+
+        .project p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Skills</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="Screenshot (88).png" alt="Project One">
+            <div class="content">
+                <h3>Project One</h3>
+                <p>
+                    The "Fruit Selling" website is a project developed as part of my college coursework,
+                     showcasing and selling fresh fruits. Using HTML and CSS, the site features a clean, 
+                     responsive design with intuitive navigation and product listings. Key features include
+                      a searchable fruit catalog, detailed product pages, and a shopping cart. Achievements 
+                      include successfully implementing responsive design and creating a user-friendly interface. 
+                      Challenges faced included optimizing images for faster load times and ensuring cross-device 
+                      compatibility.</p>
+            </div>
+        </div>
+        <div class="project">
+            <img src="pms.jpg" alt="Project Two">
+            <div class="content">
+                <h3>Project Two</h3>
+                <p>The "Placement Management System" website is a project developed for managing 
+                    and streamlining the placement process for students. Utilizing HTML and CSS, 
+                    the site features a professional and intuitive interface with modules for 
+                    student registrations, placement notifications, and application tracking. 
+                    Key features include a user-friendly dashboard, real-time updates, and detailed
+                     placement records. Achievements include automating placement processes and
+                      enhancing user engagement through a responsive design. Challenges faced 
+                      involved integrating various functionalities and ensuring data security across 
+                      the platform</p>
+            </div>
+        </div>
+        <!-- Add more projects here -->
+    </section>
+</body>
+
+</html>
